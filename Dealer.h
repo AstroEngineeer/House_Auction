@@ -16,8 +16,7 @@ class Dealer
 		void getfile();
         int p_return(int pp[]);
         int n_return(int pp[]);
-
-
+//Author : Vignesh
 };
 void Dealer::setProfit(int arr[],int amount,int n)
 {
@@ -47,7 +46,7 @@ void Dealer::setProfit(int arr[],int amount,int n)
 	infile.close();
 //	}
 }
-
+//Author : Vignesh
 void Dealer::setData()
 {
 			cout<<"Enter dealer Name ::";

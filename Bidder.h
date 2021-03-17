@@ -28,7 +28,7 @@ void Bidder::getBidder(int id)
 	}
 	outfile.close();
 	//getData();
-}
+}//Author : Vignesh
 void Bidder::setData()
 {
 	cout<<"Enter the Bidder Id ::";
@@ -46,7 +46,7 @@ void Bidder::getData()
 	cout<<"Bidder Name ::"<<bname<<endl;
 	cout<<"Phone Numbre ::"<<phone<<endl;
 	cout<<"Address ::"<<Addr<<endl;
-}
+}//Author : Vignesh
 void Bidder::setfile()
 {
 	fstream infile;

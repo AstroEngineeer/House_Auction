@@ -1,5 +1,6 @@
 #include "Bidder.h"
 using namespace std;
+//Author : Vignesh
 void heapify(int arr[],int n,int i,int arr1[])
 {
     int L=i;
@@ -46,7 +47,7 @@ void print(int arr[],int n,int arr1[])
         cout<<"Price:"<<arr[i]<<"Rs.    ID:"<<arr1[i]<<"\n";
     cout<<"\n#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#\n";
 }
-
+//Author : Vignesh
 void end_auction(int arr[],int &n,int arr1[])
 {
     Bidder bb;

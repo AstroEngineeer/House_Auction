@@ -17,7 +17,7 @@ void serialize(node *root)
 		file.close();
 		//fprintf(fp, "%d ", MARKER);
 		return;
-	}
+	}//Author : Vignesh
 
 	// Else, store current node and recur for its children
 	//fprintf(fp, "%d ", root->key);
@@ -51,7 +51,7 @@ void deSerialize(node *&root)
 	root = newNode(val);
 	deSerialize(root->left);
 	deSerialize(root->right);
-}
+}//Author : Vignesh
 struct node* display(struct node* R)
 {
 	if(R==NULL)

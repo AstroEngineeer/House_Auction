@@ -104,7 +104,7 @@ int main()
             display(root);
             break;
 
-        case 8://EXIT THIS MODULE
+        case 8://EXIT THIS MODULE//Author : Vignesh
         	clrscr;
             break;
         case 7://SELLING THE FLATS
@@ -139,7 +139,7 @@ int main()
              while(ww==1)
     {//clrscr;
     		cout<<"\n\n\t\t1.VIEW DEALER DETAILS\n\n\t\t2.VIEW FLAT DETAILS\n\n\t\t3.FIND THE SUBDEALERS\n\n\t\t4.FIND THE SUPERIOR DEALERS\n\n\t\t5.EXIT\n\n\tEnter your choice : ";
-       // cout<<"Enter option:";
+       // cout<<"Enter option:";//Author : Vignesh
         cin>>zzz;
         switch(zzz)
         {
